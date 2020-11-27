@@ -1,0 +1,835 @@
+{
+  "SessionId": "0f99a1bd-015c-496d-b8bf-abbca09fe0d1",
+  "Discount": {
+    "Note": "this was made by Mike for testing",
+    "AgreementNumber": "123456",
+    "IsActive": "true",
+    "ActiveToDate": "2018-09-25T16:49:20.026ZT00:00:00",
+    "Id": "p6y9wgkv",
+    "Customer": {
+      "MiscNotes": [],
+      "Address": [
+        "Hanslope Park",
+        "Hanslope"
+      ],
+      "Country": {
+        "Code": "GBR",
+        "Id": "qn6qw8ks",
+        "Name": "United Kingdom"
+      },
+      "Town": "Milton Keynes",
+      "IsActive": true,
+      "Postcode": "MK19 7BH",
+      "State": "Milton Keynes",
+      "Supplier": null,
+      "IsInternalCompany": true,
+      "Id": "epzepdy2",
+      "Sites": [
+        {
+          "IsNoChargeForBatteries": false,
+          "PaymentTermDays": "30",
+          "Address": "Hanslope Park, \nHanslope, \n",
+          "Town": "Milton Keynes",
+          "Currency": {
+            "Code": "GBP",
+            "Id": "a5nb7apa",
+            "Name": "deansCurrency"
+          },
+          "IsActive": false,
+          "Postcode": "MK19 7BH",
+          "State": "Milton Keynes, ",
+          "Id": "37ycgnzn",
+          "Name": "Lockheed Martin site"
+        }
+      ],
+      "AlternativeName": "Mikes test data",
+      "Manufacturer": null,
+      "Customer": {
+        "SiebelOcn": "11825863",
+        "SiebelOsi": "44444444",
+        "SiebelAccountId": "aa-12345",
+        "Currency": "a5nb7apa"
+      },
+      "Name": "Lockheed Martin"
+    },
+    "ActiveFromDate": "2018-09-25T16:49:20.011ZT00:00:00",
+    "DiscountRules": [
+      {
+        "Site": [
+          {
+            "Id": "37ycgnzn"
+          }
+        ],
+        "Product": [
+          {
+            "Id": "32ymy7c4"
+          }
+        ],
+        "ProductFamily": [
+          {
+            "Id": "zya949c7"
+          }
+        ],
+        "Service": [
+          {
+            "Id": "6fxvdr25"
+          }
+        ],
+        "Sequence": 1,
+        "DiscountPercentage": 0.1
+      }
+    ]
+  },
+  "ModifiedDate": "2018-08-23",
+  "DiscountAgreement": {
+    "Note": "this was made by Mike for testing",
+    "AgreementNumber": "123456",
+    "IsActive": "true",
+    "ActiveToDate": "2018-09-25T16:49:20.026ZT00:00:00",
+    "Id": "p6y9wgkv",
+    "Customer": {
+      "MiscNotes": [],
+      "Address": [
+        "Hanslope Park",
+        "Hanslope"
+      ],
+      "Country": {
+        "Code": "GBR",
+        "Id": "qn6qw8ks",
+        "Name": "United Kingdom"
+      },
+      "Town": "Milton Keynes",
+      "IsActive": true,
+      "Postcode": "MK19 7BH",
+      "State": "Milton Keynes",
+      "Supplier": null,
+      "IsInternalCompany": true,
+      "Id": "epzepdy2",
+      "Sites": [
+        {
+          "IsNoChargeForBatteries": false,
+          "PaymentTermDays": "30",
+          "Address": "Hanslope Park, \nHanslope, \n",
+          "Town": "Milton Keynes",
+          "Currency": {
+            "Code": "GBP",
+            "Id": "a5nb7apa",
+            "Name": "deansCurrency"
+          },
+          "IsActive": false,
+          "Postcode": "MK19 7BH",
+          "State": "Milton Keynes, ",
+          "Id": "37ycgnzn",
+          "Name": "Lockheed Martin site"
+        }
+      ],
+      "AlternativeName": "Mikes test data",
+      "Manufacturer": null,
+      "Customer": {
+        "SiebelOcn": "11825863",
+        "SiebelOsi": "44444444",
+        "SiebelAccountId": "aa-12345",
+        "Currency": "a5nb7apa"
+      },
+      "Name": "Lockheed Martin"
+    },
+    "ActiveFromDate": "2018-09-25T16:49:20.011ZT00:00:00",
+    "DiscountRules": [
+      {
+        "Site": [
+          {
+            "Id": "37ycgnzn"
+          }
+        ],
+        "Product": [
+          {
+            "Id": "32ymy7c4"
+          }
+        ],
+        "ProductFamily": [
+          {
+            "Id": "zya949c7"
+          }
+        ],
+        "Service": [
+          {
+            "Id": "6fxvdr25"
+          }
+        ],
+        "Sequence": 1,
+        "DiscountPercentage": 0.1
+      }
+    ]
+  },
+  "ShipToCompany": {
+    "MiscNotes": [],
+    "Address": [
+      "Test_24-9-18_12-52",
+      "Test_24-9-18_12-52"
+    ],
+    "Country": {
+      "Code": "GBR",
+      "Id": "qn6qw8ks",
+      "Name": "United Kingdom"
+    },
+    "Town": "Test_24-9-18_12-52",
+    "IsActive": true,
+    "Postcode": "Test_24-9-18_12-52",
+    "State": "Test_24-9-18_12-52",
+    "Supplier": null,
+    "IsInternalCompany": false,
+    "WebAddress": null,
+    "Id": "h3k6a7cf",
+    "Sites": [
+      {
+        "IsNoChargeForBatteries": false,
+        "PaymentTermDays": "30",
+        "Address": "445 Beoture Drive",
+        "Town": "Sandalvore",
+        "Currency": {
+          "Code": "GBP",
+          "Id": "a5nb7apa",
+          "Name": "deansCurrency"
+        },
+        "IsActive": false,
+        "Postcode": "93845",
+        "State": "California",
+        "Id": "abx92wmc",
+        "Name": "GenSite3"
+      },
+      {
+        "IsNoChargeForBatteries": false,
+        "PaymentTermDays": "30",
+        "Address": "asdf",
+        "Town": "asdf",
+        "Currency": {
+          "Code": "GBP",
+          "Id": "a5nb7apa",
+          "Name": "deansCurrency"
+        },
+        "IsActive": false,
+        "Postcode": "asdf",
+        "State": "asdf",
+        "Id": "6bhdrcyt",
+        "Name": "Jesse Test asdf"
+      }
+    ],
+    "AlternativeName": "manu test",
+    "Manufacturer": {
+      "isManufacturer": true
+    },
+    "Customer": null,
+    "Name": "Test_24-9-18_12-52"
+  },
+  "TemplateConfig": {
+    "SelectedFields": [
+      {
+        "Manufacturer": "Manufacturer"
+      },
+      {
+        "Product": "Product"
+      },
+      {
+        "Quantity": "Quantity"
+      },
+      {
+        "Service": "Service"
+      },
+      {
+        "Category": "Category"
+      },
+      {
+        "Discount": "Discount"
+      },
+      {
+        "QuotedPrice": "Quoted Price"
+      }
+    ],
+    "GroupBy": "Manufacturer",
+    "Intro": "intro stuff",
+    "Comments": "Jesse provides the most thorough testing available to ensure the highest confidence of compliance to manufacturer's specification.  Adjustments where applicable are included in the price quoted on Keysight products.  Full suite of management reporting and asset management tools available for free at www.keysight.com/find/service.  All return to Keysight repairs include a calibration where available. All repairs carry a 3 month parts and workmanship warranty."
+  },
+  "QuotedDate": "2018-08-23",
+  "Contact": {
+    "Title": "Mr",
+    "IsActive": "true",
+    "Id": "ypgvfps9",
+    "Surname": "Alpay",
+    "Email": "Errol_alpay@testcompany2.com",
+    "ForeName": "Errol",
+    "Companies": [
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [
+          "any note"
+        ],
+        "Address": [
+          "address line 1"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "town",
+        "IsActive": true,
+        "Postcode": "any",
+        "State": "any",
+        "Supplier": null,
+        "IsInternalCompany": false,
+        "WebAddress": "www.com",
+        "Id": "g9vg8v2f",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "12 Tendor Road",
+            "Town": "Slangle",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "95123",
+            "State": "California",
+            "Id": "qk9vqdd3",
+            "Name": "MobSiteA"
+          }
+        ],
+        "AlternativeName": "dd",
+        "Manufacturer": {
+          "isManufacturer": true
+        },
+        "Customer": null,
+        "Name": "test_adam"
+      }
+    ]
+  },
+  "CreatedDate": "2018-08-23",
+  "QuoteStatus": "In Progress",
+  "Version": "1",
+  "Comment": "this is a comment",
+  "CFDCountry": {
+    "Code": "USA",
+    "Id": "6asb4m96",
+    "Name": "United States"
+  },
+  "ExpiryDate": "2018-08-23",
+  "PrimaryServiceSite": {
+    "IsNoChargeForBatteries": false,
+    "PaymentTermDays": "30",
+    "Address": "Hanslope Park, \nHanslope, \n",
+    "Town": "Milton Keynes",
+    "Currency": {
+      "Code": "GBP",
+      "Id": "a5nb7apa",
+      "Name": "deansCurrency"
+    },
+    "IsActive": false,
+    "Postcode": "MK19 7BH",
+    "State": "Milton Keynes, ",
+    "Id": "37ycgnzn",
+    "Name": "Lockheed Martin site"
+  },
+  "Services": [
+    {
+      "Description": "Keysight Standard Calibration",
+      "Id": "edw9kkqm",
+      "Type": "Calibration",
+      "Name": "Standard Calibration"
+    }
+  ],
+  "Type": "Budgetary",
+  "ShipToSite": {
+    "IsNoChargeForBatteries": false,
+    "PaymentTermDays": "30",
+    "Address": "Hanslope Park, \nHanslope, \n",
+    "Town": "Milton Keynes",
+    "Currency": {
+      "Code": "GBP",
+      "Id": "a5nb7apa",
+      "Name": "deansCurrency"
+    },
+    "IsActive": false,
+    "Postcode": "MK19 7BH",
+    "State": "Milton Keynes, ",
+    "Id": "37ycgnzn",
+    "Name": "Lockheed Martin site"
+  },
+  "ModifiedBy": {
+    "SurName": "Wade",
+    "Role": "Technician",
+    "InactiveDate": "12/31/2018",
+    "ServiceLocation": {
+      "Postcode": "TF1",
+      "Id": "s8bzzd4r",
+      "Name": "AlanCoSite1"
+    },
+    "SecondaryApproval": "N/A",
+    "Email": "mike.wade@keysight.com",
+    "ForeName": "Mike",
+    "NtAccount": "mwade",
+    "GeographicVisibility": "Country",
+    "DefaultLanguage": {
+      "Code": "EN",
+      "Id": "pckhmd38",
+      "Name": "English"
+    },
+    "IsAuthorizingEmployee": "False",
+    "DefaultCurrency": {
+      "Code": "USD",
+      "Id": "atq9tyr9",
+      "Name": "US Dollars"
+    },
+    "WorkCenter": {
+      "Description": "Alan Workcentre",
+      "Id": "wvfs3vzs",
+      "Site": {
+        "Postcode": "TF1",
+        "Id": "s8bzzd4r",
+        "Name": "AlanCoSite1"
+      },
+      "Name": "Alan Workcentre"
+    },
+    "Id": "ft6byrrz"
+  },
+  "ShipToContact": {
+    "Title": "Mr",
+    "IsActive": "true",
+    "Id": "ypgvfps9",
+    "Surname": "Alpay",
+    "Email": "Errol_alpay@testcompany2.com",
+    "ForeName": "Errol",
+    "Companies": [
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [],
+        "Address": [
+          "Hanslope Park",
+          "Hanslope"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "Milton Keynes",
+        "IsActive": true,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes",
+        "Supplier": null,
+        "IsInternalCompany": true,
+        "Id": "epzepdy2",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "Hanslope Park, \nHanslope, \n",
+            "Town": "Milton Keynes",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "MK19 7BH",
+            "State": "Milton Keynes, ",
+            "Id": "37ycgnzn",
+            "Name": "Lockheed Martin site"
+          }
+        ],
+        "AlternativeName": "Mikes test data",
+        "Manufacturer": null,
+        "Customer": {
+          "SiebelOcn": "11825863",
+          "SiebelOsi": "44444444",
+          "SiebelAccountId": "aa-12345",
+          "Currency": "a5nb7apa"
+        },
+        "Name": "Lockheed Martin"
+      },
+      {
+        "MiscNotes": [
+          "any note"
+        ],
+        "Address": [
+          "address line 1"
+        ],
+        "Country": {
+          "Code": "GBR",
+          "Id": "qn6qw8ks",
+          "Name": "United Kingdom"
+        },
+        "Town": "town",
+        "IsActive": true,
+        "Postcode": "any",
+        "State": "any",
+        "Supplier": null,
+        "IsInternalCompany": false,
+        "WebAddress": "www.com",
+        "Id": "g9vg8v2f",
+        "Sites": [
+          {
+            "IsNoChargeForBatteries": false,
+            "PaymentTermDays": "30",
+            "Address": "12 Tendor Road",
+            "Town": "Slangle",
+            "Currency": {
+              "Code": "GBP",
+              "Id": "a5nb7apa",
+              "Name": "deansCurrency"
+            },
+            "IsActive": false,
+            "Postcode": "95123",
+            "State": "California",
+            "Id": "qk9vqdd3",
+            "Name": "MobSiteA"
+          }
+        ],
+        "AlternativeName": "dd",
+        "Manufacturer": {
+          "isManufacturer": true
+        },
+        "Customer": null,
+        "Name": "test_adam"
+      }
+    ]
+  },
+  "Notes": "This is a note",
+  "BillToSite": {
+    "IsNoChargeForBatteries": false,
+    "PaymentTermDays": "30",
+    "Address": "Hanslope Park, \nHanslope, \n",
+    "Town": "Milton Keynes",
+    "Currency": {
+      "Code": "GBP",
+      "Id": "a5nb7apa",
+      "Name": "deansCurrency"
+    },
+    "IsActive": false,
+    "Postcode": "MK19 7BH",
+    "State": "Milton Keynes, ",
+    "Id": "37ycgnzn",
+    "Name": "Lockheed Martin site"
+  },
+  "ReferenceNumber": "Jesse",
+  "CreatedBy": {
+    "SurName": "Wade",
+    "Role": "Technician",
+    "InactiveDate": "12/31/2018",
+    "ServiceLocation": {
+      "Postcode": "TF1",
+      "Id": "s8bzzd4r",
+      "Name": "AlanCoSite1"
+    },
+    "SecondaryApproval": "N/A",
+    "Email": "mike.wade@keysight.com",
+    "ForeName": "Mike",
+    "NtAccount": "mwade",
+    "GeographicVisibility": "Country",
+    "DefaultLanguage": {
+      "Code": "EN",
+      "Id": "pckhmd38",
+      "Name": "English"
+    },
+    "IsAuthorizingEmployee": "False",
+    "DefaultCurrency": {
+      "Code": "USD",
+      "Id": "atq9tyr9",
+      "Name": "US Dollars"
+    },
+    "WorkCenter": {
+      "Description": "Alan Workcentre",
+      "Id": "wvfs3vzs",
+      "Site": {
+        "Postcode": "TF1",
+        "Id": "s8bzzd4r",
+        "Name": "AlanCoSite1"
+      },
+      "Name": "Alan Workcentre"
+    },
+    "Id": "ft6byrrz"
+  },
+  "Company": {
+    "MiscNotes": [],
+    "Address": [
+      "Hanslope Park",
+      "Hanslope"
+    ],
+    "Country": {
+      "Code": "GBR",
+      "Id": "qn6qw8ks",
+      "Name": "United Kingdom"
+    },
+    "Town": "Milton Keynes",
+    "IsActive": true,
+    "Postcode": "MK19 7BH",
+    "State": "Milton Keynes",
+    "Supplier": null,
+    "IsInternalCompany": true,
+    "Id": "epzepdy2",
+    "Sites": [
+      {
+        "IsNoChargeForBatteries": false,
+        "PaymentTermDays": "30",
+        "Address": "Hanslope Park, \nHanslope, \n",
+        "Town": "Milton Keynes",
+        "Currency": {
+          "Code": "GBP",
+          "Id": "a5nb7apa",
+          "Name": "deansCurrency"
+        },
+        "IsActive": false,
+        "Postcode": "MK19 7BH",
+        "State": "Milton Keynes, ",
+        "Id": "37ycgnzn",
+        "Name": "Lockheed Martin site"
+      }
+    ],
+    "AlternativeName": "Mikes test data",
+    "Manufacturer": null,
+    "Customer": {
+      "SiebelOcn": "11825863",
+      "SiebelOsi": "44444444",
+      "SiebelAccountId": "aa-12345",
+      "Currency": "a5nb7apa"
+    },
+    "Name": "Lockheed Martin"
+  },
+  "QuoteCurrency": {
+    "Code": "USD",
+    "Id": "atq9tyr9",
+    "Name": "US Dollars"
+  },
+  "Id": "d94wu9kc",
+  "EntityCategory": "quoteheader"
+}

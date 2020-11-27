@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ServiceOrderHeader>
+    <WDB>V1DE</WDB>
+    <MailTo>jinbao_gao@keysight.com</MailTo>
+    <ServiceOrderNumber>1-11653179796</ServiceOrderNumber>
+    <CodePage>1252</CodePage>
+    <OCPPVersion>9.09.04</OCPPVersion>
+    <Account>
+      <CustomerNumber>738247-692115</CustomerNumber>
+      <CustomerName>Airbus Defence and Space GmbH</CustomerName>
+      <CFDLanguage>en</CFDLanguage>
+    </Account>
+    <ListOfLineItems TotalLaborHour="1.5">
+      <LineItem>
+        <AdjustmentPerformed>N</AdjustmentPerformed>
+        <AgilentModel>3458A</AgilentModel>
+        <AssetCalibrationInterval>12</AssetCalibrationInterval>
+        <BillingType>Agreement</BillingType>
+        <CalDate>2019-10-11</CalDate>
+        <CustomerAssetTag>TEST</CustomerAssetTag>
+        <EmployeeNumber>00555859</EmployeeNumber>
+        <LineItemStatus>Complete</LineItemStatus>
+        <LineNumber>2</LineNumber>
+        <MUEmployeeNumber>QEPS1447</MUEmployeeNumber>
+        <PostSafetyTest>Passed</PostSafetyTest>
+        <PreSafetyTest>Passed</PreSafetyTest>
+        <ReceiveDate>2019-10-11</ReceiveDate>
+        <ReportedTime>0.5</ReportedTime>
+        <SerialNumber>MY1234</SerialNumber>
+        <TechnicianCESymptoms>S</TechnicianCESymptoms>
+        <ServiceActivityCode>OL</ServiceActivityCode>
+        <ApplicableStandard>AT</ApplicableStandard>
+        <LocationCode>CUST</LocationCode>
+        <AccountAuthorizationNumber>00108809</AccountAuthorizationNumber>
+        <InternalAsset>N</InternalAsset>
+        <AssetDepartment />
+        <AssetUser />
+        <MfrCode>KTI</MfrCode>
+        <MfrModel>3458A</MfrModel>
+        <InstalledOptions />
+        <InstalledDescription>Digital multimeter, 8.5 digit</InstalledDescription>
+        <CalDueOnCertificate>N</CalDueOnCertificate>
+        <CalDueDate>2020-10-11</CalDueDate>
+        <CalIntervalSource>S</CalIntervalSource>
+        <ReasonForCal>3</ReasonForCal>
+        <AuthorizingEmployeeNumber>00108809</AuthorizingEmployeeNumber>
+        <Comments>C</Comments>
+        <Tethered>N</Tethered>
+        <CalibrationResults>
+          <ProcedureUsed>STE</ProcedureUsed>
+          <AccProcedureUsed />
+          <AsReceiveCondition />
+          <CorrectiveAction>301</CorrectiveAction>
+          <AsCompletedCondition>1</AsCompletedCondition>
+          <SealIntactFlag />
+          <TemperatureRange>(23 +/- 5)</TemperatureRange>
+          <HumidityRange>(50 +/- 30)</HumidityRange>
+          <LineMainsFrequency />
+          <StandardsUsed>
+            <CalibrationStandard>
+              <AgilentModel>11664A</AgilentModel>
+              <AssetID>DE012</AssetID>
+              <CalDueDate>2020-08-31</CalDueDate>
+              <InstalledDescription>18 GHZ DETECTOR</InstalledDescription>
+              <SerialNumber>37035</SerialNumber>
+              <ServiceOrderNumber>1-9614944735-1</ServiceOrderNumber>
+            </CalibrationStandard>
+          </StandardsUsed>
+        </CalibrationResults>
+      </LineItem>
+      <LineItem>
+        <AdjustmentPerformed>N</AdjustmentPerformed>
+        <AgilentModel>34410A</AgilentModel>
+        <AssetCalibrationInterval>12</AssetCalibrationInterval>
+        <BillingType>Agreement</BillingType>
+        <CalDate>2020-02-10</CalDate>
+        <CustomerAssetTag />
+        <EmployeeNumber>00555859</EmployeeNumber>
+        <LineItemStatus>Complete</LineItemStatus>
+        <LineNumber>3</LineNumber>
+        <MUEmployeeNumber>QEPS1447</MUEmployeeNumber>
+        <PostSafetyTest>Not Applicable</PostSafetyTest>
+        <PreSafetyTest>Not Applicable</PreSafetyTest>
+        <ReceiveDate>2020-02-10</ReceiveDate>
+        <ReportedTime>0.5</ReportedTime>
+        <SerialNumber>MY34343</SerialNumber>
+        <TechnicianCESymptoms>Test</TechnicianCESymptoms>
+        <ServiceActivityCode>OL</ServiceActivityCode>
+        <ApplicableStandard>AT</ApplicableStandard>
+        <LocationCode>CUST</LocationCode>
+        <AccountAuthorizationNumber>00108809</AccountAuthorizationNumber>
+        <InternalAsset>N</InternalAsset>
+        <AssetDepartment />
+        <AssetUser />
+        <MfrCode>KTI</MfrCode>
+        <MfrModel>34410A</MfrModel>
+        <InstalledOptions />
+        <InstalledDescription>Digital multimeter, 6.5 digit</InstalledDescription>
+        <CalDueOnCertificate>N</CalDueOnCertificate>
+        <CalDueDate>2021-02-10</CalDueDate>
+        <CalIntervalSource>S</CalIntervalSource>
+        <ReasonForCal>3</ReasonForCal>
+        <AuthorizingEmployeeNumber>00108809</AuthorizingEmployeeNumber>
+        <Comments>TEST</Comments>
+        <Tethered>N</Tethered>
+        <CalibrationResults>
+          <ProcedureUsed>STE</ProcedureUsed>
+          <AccProcedureUsed />
+          <AsReceiveCondition />
+          <CorrectiveAction>301</CorrectiveAction>
+          <AsCompletedCondition>1</AsCompletedCondition>
+          <SealIntactFlag />
+          <TemperatureRange>(23 +/- 5)</TemperatureRange>
+          <HumidityRange>(50 +/- 30)</HumidityRange>
+          <LineMainsFrequency />
+          <StandardsUsed>
+            <CalibrationStandard>
+              <AgilentModel>11850C</AgilentModel>
+              <AssetID>UKD0198</AssetID>
+              <CalDueDate>2021-10-11</CalDueDate>
+              <InstalledDescription>POWER SPLITTER</InstalledDescription>
+              <SerialNumber>02608</SerialNumber>
+              <ServiceOrderNumber>1-10484453400-1</ServiceOrderNumber>
+            </CalibrationStandard>
+          </StandardsUsed>
+        </CalibrationResults>
+      </LineItem>
+      <LineItem>
+        <AdjustmentPerformed>N</AdjustmentPerformed>
+        <AgilentModel>34970A</AgilentModel>
+        <AssetCalibrationInterval>1</AssetCalibrationInterval>
+        <BillingType>Agreement</BillingType>
+        <CalDate>2020-03-16</CalDate>
+        <CustomerAssetTag />
+        <EmployeeNumber>00555859</EmployeeNumber>
+        <LineItemStatus>Complete</LineItemStatus>
+        <LineNumber>4</LineNumber>
+        <MUEmployeeNumber>QEPS1447</MUEmployeeNumber>
+        <PostSafetyTest>Not Applicable</PostSafetyTest>
+        <PreSafetyTest>Not Applicable</PreSafetyTest>
+        <ReceiveDate>2020-03-16</ReceiveDate>
+        <ReportedTime>0.5</ReportedTime>
+        <SerialNumber>US444444</SerialNumber>
+        <TechnicianCESymptoms>S</TechnicianCESymptoms>
+        <ServiceActivityCode>OL</ServiceActivityCode>
+        <ApplicableStandard>AT</ApplicableStandard>
+        <LocationCode>CUST</LocationCode>
+        <AccountAuthorizationNumber>00108809</AccountAuthorizationNumber>
+        <InternalAsset>N</InternalAsset>
+        <AssetDepartment />
+        <AssetUser />
+        <MfrCode>KTI</MfrCode>
+        <MfrModel>34970A</MfrModel>
+        <InstalledOptions />
+        <InstalledDescription>Data Acquisition/Switch Unit. GPIB, RS232</InstalledDescription>
+        <CalDueOnCertificate>N</CalDueOnCertificate>
+        <CalDueDate>2020-04-16</CalDueDate>
+        <CalIntervalSource>S</CalIntervalSource>
+        <ReasonForCal>3</ReasonForCal>
+        <AuthorizingEmployeeNumber>00108809</AuthorizingEmployeeNumber>
+        <Comments>abc&lt;test&gt;ok&amp;pass\"bei'yes.
+This is testing.
+New line.</Comments>
+        <Tethered>N</Tethered>
+        <CalibrationResults>
+          <ProcedureUsed>PAN-1141-1589-A.01.01</ProcedureUsed>
+          <AccProcedureUsed />
+          <AsReceiveCondition />
+          <CorrectiveAction>301</CorrectiveAction>
+          <AsCompletedCondition>1</AsCompletedCondition>
+          <SealIntactFlag />
+          <TemperatureRange>(23 +/- 5)</TemperatureRange>
+          <HumidityRange>(50 +/- 30)</HumidityRange>
+          <LineMainsFrequency />
+          <StandardsUsed>
+            <CalibrationStandard>
+              <AgilentModel>11664A</AgilentModel>
+              <AssetID>DE012</AssetID>
+              <CalDueDate>2020-08-31</CalDueDate>
+              <InstalledDescription>18 GHZ DETECTOR</InstalledDescription>
+              <SerialNumber>37035</SerialNumber>
+              <ServiceOrderNumber>1-9614944735-1</ServiceOrderNumber>
+            </CalibrationStandard>
+          </StandardsUsed>
+        </CalibrationResults>
+      </LineItem>
+    </ListOfLineItems>
+  </ServiceOrderHeader>
+</ServiceOrder>

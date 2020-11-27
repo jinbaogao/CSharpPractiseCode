@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/AT%20WCSS%20Action%20Interface%20Internal" xmlns:tns="http://siebel.com/asi/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://siebel.com/asi/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.siebel.com/xml/AT%20WCSS%20Action%20Interface%20Internal">
+      <xsd:annotation>
+        <xsd:documentation>Copyright (C) 2001-2004 Siebel Systems, Inc. All rights reserved. Siebel XSD Generation</xsd:documentation>
+      </xsd:annotation>
+      <xsd:element name="ListOfAtWcssActionInterfaceInternal" type="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+      <xsd:complexType name="ListOfAtWcssActionInterfaceInternalTopElmt">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ListOfAtWcssActionInterfaceInternal" type="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ListOfAtWcssActionInterfaceInternal">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Action" type="xsdLocal1:Action" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Action">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Id" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATAccessoriesReceived" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATAccessoriesShipped" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATActualReceiveDate" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATBillingType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATConditionReceived" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATFreightCarrier" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATFreightCarrierShipping" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATFreightTrackingNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATFreightTrackingNumberShipping" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATNumberOfPackages" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOrderId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOriginalPackagingUsed" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATPackaging" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATServiceNoteNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATShipDate" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATWeight" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ActivityId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ActivityUID" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Comment" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Done" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OrderItemId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OwnerLastName" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PrimaryOwnerId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SRNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ShortComment" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Started" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Status" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="TemplateFlag" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Type" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ListOfAction_Employee" type="xsdLocal1:ListOfAction_Employee" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ListOfAtTimesheetDailyHours" type="xsdLocal1:ListOfAtTimesheetDailyHours" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ListOfFsActivityRecommendedPartsTools" type="xsdLocal1:ListOfFsActivityRecommendedPartsTools" />
+        </xsd:sequence>
+        <xsd:attribute name="operation" type="xsd:string" />
+        <xsd:attribute name="searchspec" type="xsd:string" />
+      </xsd:complexType>
+      <xsd:complexType name="ListOfAction_Employee">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Action_Employee" type="xsdLocal1:Action_Employee" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Action_Employee">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATEmployee" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="EmployeeFirstName" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="EmployeeLastName" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="OwnedBy" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OwnedById" type="xsd:string" />
+        </xsd:sequence>
+        <xsd:attribute name="IsPrimaryMVG" type="xsd:string" />
+        <xsd:attribute name="operation" type="xsd:string" />
+      </xsd:complexType>
+      <xsd:complexType name="ListOfAtTimesheetDailyHours">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="AtTimesheetDailyHours" type="xsdLocal1:AtTimesheetDailyHours" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="AtTimesheetDailyHours">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Id" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Created" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATElapsedTime" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATEstimatedTime" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATLaborItemNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOrderId" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ATType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ActivityId" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ItemDate" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OwnerLogin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ReportedTime" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="TimeSheetItemNum" type="xsd:string" />
+        </xsd:sequence>
+        <xsd:attribute name="operation" type="xsd:string" />
+        <xsd:attribute name="searchspec" type="xsd:string" />
+      </xsd:complexType>
+      <xsd:complexType name="ListOfFsActivityRecommendedPartsTools">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="FsActivityRecommendedPartsTools" type="xsdLocal1:FsActivityRecommendedPartsTools" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FsActivityRecommendedPartsTools">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Id" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATIncludeinBillableTotal" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATLocation" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATNewSerialNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOldSerialNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOrderId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATPartsFailCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATPartsUsedCode" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATRef.Designator" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATReturnTo" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ActivityDescription" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ActivityId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ActivityType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OrderNumberforCE" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Part" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="PrimaryOrderItemId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ProductId" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ProductName" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="RecommendedQuantity" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="RelationType" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ReturnDefective" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATLineFailureComment" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ListOfFSActivityRecommendedPartsTools_FSActivityOrderItem" type="xsdLocal1:ListOfFSActivityRecommendedPartsTools_FSActivityOrderItem" />
+        </xsd:sequence>
+        <xsd:attribute name="operation" type="xsd:string" />
+        <xsd:attribute name="searchspec" type="xsd:string" />
+      </xsd:complexType>
+      <xsd:complexType name="ListOfFSActivityRecommendedPartsTools_FSActivityOrderItem">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="FSActivityRecommendedPartsTools_FSActivityOrderItem" type="xsdLocal1:FSActivityRecommendedPartsTools_FSActivityOrderItem" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FSActivityRecommendedPartsTools_FSActivityOrderItem">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ATOrderQty" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="OrderId" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OrderLineItemStatus" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="OrderNumber" type="xsd:string" />
+        </xsd:sequence>
+        <xsd:attribute name="IsPrimaryMVG" type="xsd:string" />
+        <xsd:attribute name="operation" type="xsd:string" />
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://siebel.com/asi/">
+      <xsd:import namespace="http://www.siebel.com/xml/AT%20WCSS%20Action%20Interface%20Internal" />
+      <xsd:element name="WCSSActivityInsertOrUpdate_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+            <xsd:element minOccurs="0" name="StatusObject" type="xsd:string" />
+            <xsd:element name="SourceSystem" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WCSSActivityInsertOrUpdate_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WCSSActivityQueryByExample_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WCSSActivityQueryByExample_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WCSSActivityQuery_Input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="PrimaryRowId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WCSSActivityQuery_Output">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="xsdLocal1:ListOfAtWcssActionInterfaceInternal" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="WCSSActivityInsertOrUpdate_Input">
+    <part name="WCSSActivityInsertOrUpdate_Input" element="tns:WCSSActivityInsertOrUpdate_Input" />
+  </message>
+  <message name="WCSSActivityInsertOrUpdate_Output">
+    <part name="WCSSActivityInsertOrUpdate_Output" element="tns:WCSSActivityInsertOrUpdate_Output" />
+  </message>
+  <message name="WCSSActivityQueryByExample_Input">
+    <part name="WCSSActivityQueryByExample_Input" element="tns:WCSSActivityQueryByExample_Input" />
+  </message>
+  <message name="WCSSActivityQueryByExample_Output">
+    <part name="WCSSActivityQueryByExample_Output" element="tns:WCSSActivityQueryByExample_Output" />
+  </message>
+  <message name="WCSSActivityQuery_Input">
+    <part name="WCSSActivityQuery_Input" element="tns:WCSSActivityQuery_Input" />
+  </message>
+  <message name="WCSSActivityQuery_Output">
+    <part name="WCSSActivityQuery_Output" element="tns:WCSSActivityQuery_Output" />
+  </message>
+  <portType name="WCSS_spcActivity">
+    <operation name="WCSSActivityInsertOrUpdate">
+      <input message="tns:WCSSActivityInsertOrUpdate_Input" />
+      <output message="tns:WCSSActivityInsertOrUpdate_Output" />
+    </operation>
+    <operation name="WCSSActivityQueryByExample">
+      <input message="tns:WCSSActivityQueryByExample_Input" />
+      <output message="tns:WCSSActivityQueryByExample_Output" />
+    </operation>
+    <operation name="WCSSActivityQuery">
+      <input message="tns:WCSSActivityQuery_Input" />
+      <output message="tns:WCSSActivityQuery_Output" />
+    </operation>
+  </portType>
+  <binding name="WCSS_spcActivity" type="tns:WCSS_spcActivity">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="WCSSActivityInsertOrUpdate">
+      <soap:operation soapAction="document/http://siebel.com/asi/:WCSSActivityInsertOrUpdate" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WCSSActivityQueryByExample">
+      <soap:operation soapAction="document/http://siebel.com/asi/:WCSSActivityQueryByExample" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WCSSActivityQuery">
+      <soap:operation soapAction="document/http://siebel.com/asi/:WCSSActivityQuery" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="AT_spcWCSS_spcActivity">
+    <port name="WCSS_spcActivity" binding="tns:WCSS_spcActivity">
+      <soap:address location="https://wcossd01k.cos.is.keysight.com/eai_Wcss_enu/start.swe?SWEExtSource=SecureWebService&amp;SWEExtCmd=Execute" />
+    </port>
+  </service>
+</definitions>

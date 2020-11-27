@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://wcss.keysight.com/EnterpriseBroker/LdapAuth" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapSL12="http://www.w3.org/2003/05/soap-envelope" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapSL="http://schemas.xmlsoap.org/soap/envelope/" xmlns:EnterpriseBroker="http://wcss.keysight.com/EnterpriseBroker/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://wcss.keysight.com/EnterpriseBroker/LdapAuth" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://wcss.keysight.com/EnterpriseBroker/LdapAuth">
+      <xsd:element name="ldapAuth">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Application" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="IdType" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="Id" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="Password" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ldapMessageResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="LdapMessage" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="LdapMessageIn">
+    <wsdl:part name="parameters" element="tns:ldapAuth" />
+  </wsdl:message>
+  <wsdl:message name="LdapMessageOut">
+    <wsdl:part name="parameters" element="tns:ldapMessageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LdapService">
+    <wsdl:operation name="ldapAuth">
+      <wsdl:input message="tns:LdapMessageIn" />
+      <wsdl:output message="tns:LdapMessageOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LdapService" type="tns:LdapService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ldapAuth">
+      <soap:operation soapAction="http://wcss.keysight.com/EnterpriseBroker/LdapAuth#ldapAuth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LdapServiceSL" type="tns:LdapService">
+    <soapSL:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ldapAuthRequest">
+      <soapSL:operation soapAction="http://wcss.keysight.com/EnterpriseBroker/LdapAuth#ldapAuth" style="document" />
+      <wsdl:input>
+        <soapSL:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soapSL:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LdapService12" type="tns:LdapService">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ldapAuthRequest">
+      <soap12:operation soapAction="http://wcss.keysight.com/EnterpriseBroker/LdapAuth#ldapAuth" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LdapServiceSL12" type="tns:LdapService">
+    <soapSL12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ldapAuthRequest">
+      <soapSL12:operation soapAction="http://wcss.keysight.com/EnterpriseBroker/LdapAuth#ldapAuth" style="document" />
+      <wsdl:input>
+        <soapSL12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soapSL12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="LdapService" binding="tns:LdapService">
+      <soap:address location="https://lcossdo4.cos.is.keysight.com/cgi-bin/soap/LdapAuth.cgi" />
+    </wsdl:port>
+    <wsdl:port name="LdapService12" binding="tns:LdapService12">
+      <soap12:address location="https://lcossdo4.cos.is.keysight.com/cgi-bin/soap/LdapAuth.cgi" />
+    </wsdl:port>
+    <wsdl:port name="LdapServiceSL" binding="tns:LdapServiceSL">
+      <soapSL:address location="https://lcossdo4.cos.is.keysight.com/cgi-bin/soap/LdapAuth.cgi" />
+    </wsdl:port>
+    <wsdl:port name="LdapServiceSL12" binding="tns:LdapServiceSL12">
+      <soapSL12:address location="https://lcossdo4.cos.is.keysight.com/cgi-bin/soap/LdapAuth.cgi" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

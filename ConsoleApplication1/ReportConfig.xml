@@ -1,0 +1,254 @@
+<ReportConfig>
+  <ServiceCategory ID="17025">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_17025_LOGO</Logo>
+    <LogoText></LogoText>
+    <Name>17025</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AD BM BW BX BZ EH OP UX</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="ACCREDITED">
+    <Accredited>Y</Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_ACCRED_LOGO</Logo>
+    <LogoText></LogoText>
+    <Name>ACCREDITED</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AJ AO CM CY DC FG HC OA UC XC YC</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="ACCREDITED_LEGACY">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>ACCREDITED_LEGACY</Name>
+    <RDEF>RDEF-CAL_ACC_LEG.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>ANY</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="ACCRED_STDS_LAB">
+    <Accredited>Y</Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_ACCRED_LOGO</Logo>
+    <LogoText></LogoText>
+    <Name>ACCRED_STDS_LAB</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AE AK AY BC BI CR IZ NC</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MET_CAL">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>MET_CAL</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KD OD</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="AGILENT_CAL">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_AGT_CAL_MU_LOGO</Logo>
+    <LogoText></LogoText>
+    <Name>AGILENT_CAL</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AS AT AU AV AW EU EV IM OM OU PL PM SA SC SE SK ST SZ UM</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="AGILENT_CAL_NOMU">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>AGILENT_CAL_NOMU</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AG AH AI AL AM AR AZ BE DF DL DM EE EJ EP GC IE MC OB OL ON OR OS PA PR PS PT SD SG SH SI SL SM SR UA UP ZZ</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="Z540_3">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>Z540_3</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>BS BT BU BV BY EB UB UV</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="Z540_1">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>Z540_1</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AC BN BR EA EL EM OW UZ</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="CUST_DEFINED_CAL">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>CUST_DEFINED_CAL</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>OC XX XY</SacList>
+  </ServiceCategory>
+  <ServiceCategory ID="OP_VERIFICATION">
+    <Accredited></Accredited>
+    <Document>CAL_OPVER</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>OP_VERIFICATION</Name>
+    <RDEF>RDEF-CAL_OPVER.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>AF AN AX DB EI IK MR OK PY RA TK UI YK</SacList>
+    <UncertaintyPolicy>REQUIRED</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="RADIO_LAW_CAL">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>RADIO_LAW_CAL</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>IF JF KF UF XF YF ZF</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="RADIO_LAW_CAL_ADJ">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>RADIO_LAW_CAL_ADJ</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>FF HF LF MF</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="CAL_D">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>CAL_D</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>CA CB CC YX</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="NONE">
+    <Accredited></Accredited>
+    <Document></Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>NONE</Name>
+    <RDEF></RDEF>
+    <RPT></RPT>
+    <SacList>AQ LC PX SN</SacList>
+    <UncertaintyPolicy>REQUIRED</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="CAL_XSHIP">
+    <Accredited></Accredited>
+    <Document>CAL_XSHIP</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>CAL_XSHIP</Name>
+    <RDEF>RDEF-CAL_XSHIP.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>ANY</SacList>
+    <UncertaintyPolicy>REQUIRED</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="OBSOLETE">
+    <Accredited></Accredited>
+    <Document></Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>OBSOLETE</Name>
+    <RDEF></RDEF>
+    <RPT></RPT>
+    <SacList>AA AB BA BH DD DE DG DH DI DJ DK EG EX EY HU HV HW LX SB SJ</SacList>
+    <UncertaintyPolicy>REQUIRED</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="INMETRO">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_RBC_LOGO</Logo>
+    <LogoText></LogoText>
+    <Name>INMETRO</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>IW JW KW</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MV_CAL">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo>LOCAL_ACCRED_LOGO_MV_CAL</Logo>
+    <LogoText></LogoText>
+    <Name>MV_CAL</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KX OX</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MV_CAL_NOMU">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>MV_CAL_NOMU</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KT OT</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MV_CAL_NOMU_OOT">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>MV_CAL_NOMU_OOT</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KG OG</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MV_CAL_Z540">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>MV_CAL_Z540</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KV OV</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+  <ServiceCategory ID="MV_CAL_Z540_OOT">
+    <Accredited></Accredited>
+    <Document>CAL_CERT</Document>
+    <Logo></Logo>
+    <LogoText></LogoText>
+    <Name>MV_CAL_Z540_OOT</Name>
+    <RDEF>RDEF-CAL_CERT.xml</RDEF>
+    <RPT>RPT-CAL_CERT.xsl</RPT>
+    <SacList>KR OZ</SacList>
+    <UncertaintyPolicy>NONE</UncertaintyPolicy>
+  </ServiceCategory>
+</ReportConfig>
